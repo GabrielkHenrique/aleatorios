@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+html{
+    background-image:url(img/mountain-ga6a440615_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    
+}
+.imagem_main{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    width: 4rem;
+}
+.res{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 5em;
+    margin-top: 5%;
+    text-align: center;
+}
+.Change{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.main-txt{
+	font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 3em;
+    margin-top: 10%;
+    text-align: center;
+	color: gray;
+}
+.min-txt{
+	text-align: center;
+	margin-top: 4rem;
+	font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 2em;
+	color: #5E6973;
+
+}
+.botao{
+    font-size: 1rem;
+	border-radius: 10px;
+	transition: 0.5s;
+	background: black;
+	color: white;
+    border: 0;
+	display: block;
+	margin: 5px auto;
+	text-align: center;
+	border: 2px solid black;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	cursor: pointer;
+}
+.botao:hover{
+	transition: 0.5s;
+	background: #b2bec3;
+	color: #2d3436;
+}
